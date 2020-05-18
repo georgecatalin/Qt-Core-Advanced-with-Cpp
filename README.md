@@ -3,7 +3,18 @@ Course work associated with the Udemy.com course "Qt Core Advanced with C++" , a
 
 https://www.udemy.com/course/qt-core-advanced/
 
+
 ## Summary
+* Section 1: Threads *
+* Section 2: Networking *
+* Section 3: Libraries and plugins *
+* Section 4: Databases *
+* Section 5: Unit Testing
+* Section 6: Deploying Qt applications *
+
+
+
+## You will learn:
 * Qt Core Advanced Classes
 * Advanced C++ techniques
 * Threading
