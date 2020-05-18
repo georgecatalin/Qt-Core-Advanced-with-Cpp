@@ -3,7 +3,7 @@ Course work associated with the Udemy.com course "Qt Core Advanced with C++" , a
 
 https://www.udemy.com/course/qt-core-advanced/
 
-##Summary
+## Summary
 * Qt Core Advanced Classes
 * Advanced C++ techniques
 * Threading
