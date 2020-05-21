@@ -1,0 +1,34 @@
+george@staembed01:~/Qt_Workshop/Qt Advanced/Qt-Core-Advanced-with-Cpp$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::ce8b:cb07:c4d9:16de  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:4d:32:35  txqueuelen 1000  (Ethernet)
+        RX packets 17060  bytes 19114201 (19.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6375  bytes 929548 (929.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 700  bytes 64269 (64.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 700  bytes 64269 (64.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+george@staembed01:~/Qt_Workshop/Qt Advanced/Qt-Core-Advanced-with-Cpp$ nslookup stormtrend.ro
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	stormtrend.ro
+Address: 185.92.193.187
+
+george@staembed01:~/Qt_Workshop/Qt Advanced/Qt-Core-Advanced-with-Cpp$ traceroute stormtrend.ro
+
+Command 'traceroute' not found, but can be installed with:
+
+sudo apt install inetutils-traceroute
+sudo apt install traceroute          
+
