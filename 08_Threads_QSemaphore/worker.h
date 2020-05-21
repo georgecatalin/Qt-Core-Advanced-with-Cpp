@@ -5,6 +5,7 @@
 #include <QDebug>
 #include <QThread>
 #include <QRunnable>
+
 #include <QSemaphore>
 
 class Worker : public QObject, public QRunnable
