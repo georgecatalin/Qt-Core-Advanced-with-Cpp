@@ -40,4 +40,3 @@ int main(int argc, char *argv[])
 
     return a.exec();
 }
-© 2020 GitHub, Inc.
