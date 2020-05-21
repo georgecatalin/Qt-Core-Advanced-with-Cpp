@@ -1,21 +1,27 @@
 #include "worker.h"
 
-
-worker::worker(QObject *parent,QStringList* qStringList,QSemaphore* qSemaphore,int position) : QObject(parent)
+Worker::Worker(QObject *parent, QStringList *data, QSemaphore *sema, int position) : QObject(parent)
 {
-    this->qStringList=qStringList;
-    this->qSemaphore=qSemaphore;
-    this->position=position;
+    this->sema = sema;
+    this->data = data;
+    this->position = position;
 }
 
-void worker::run()
+
+void Worker::run()
 {
-    if (qStringList==nullptr || qSemaphore==nullptr)
+    if(!data || !sema)
     {
-        qInfo()<<" Missing pointers";
+        qInfo() << "Missing pointers!";
         return;
     }
 
     QString t;
+    t.sprintf("%08p", QThread::currentThread());
+    //sema->acquire(1);
+    data->replace(position,QString::number(position) + " - " + t);
+    //sema->release();
+
+    qInfo() << t << " Finished " << position;
 
 }
