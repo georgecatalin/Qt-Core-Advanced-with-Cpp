@@ -17,13 +17,13 @@ https://www.udemy.com/course/qt-core-advanced/
 ## You will learn:
 * Qt Core Advanced Classes
 * Advanced C++ techniques
-* Threading
+* Threading *
 * Concurrency
 * Sockets
 * TCP programming
 * UDP programming
 * Client / Server programming
-* Thread Pools
+* Thread Pools *
 * Multi-Threaded TCP server design
 * SSL sockets
 * Creating SSL certificates
