@@ -5,12 +5,12 @@ https://www.udemy.com/course/qt-core-advanced/
 
 
 ## Summary
-* Section 1: Threads *
-* Section 2: Networking *
-* Section 3: Libraries and plugins *
-* Section 4: Databases *
+* Section 1: Threads 
+* Section 2: Networking 
+* Section 3: Libraries and plugins 
+* Section 4: Databases 
 * Section 5: Unit Testing
-* Section 6: Deploying Qt applications *
+* Section 6: Deploying Qt applications 
 
 
 
@@ -19,9 +19,9 @@ https://www.udemy.com/course/qt-core-advanced/
 * Advanced C++ techniques
 * Threading *
 * Concurrency
-* Sockets
+* Sockets *
 * TCP programming
-* UDP programming
+* UDP programming *
 * Client / Server programming
 * Thread Pools *
 * Multi-Threaded TCP server design
@@ -39,8 +39,8 @@ https://www.udemy.com/course/qt-core-advanced/
 * Qt Test Framework
 * Data driven testing
 * Benchmarking
-* Deploying applications on windows, mac and linux
+* Deploying applications on windows, mac and linux *
 * Static builds
 * App Images
 * Compressing application binaries
-* Qt Installer Framework
+* Qt Installer Framework *
