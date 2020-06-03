@@ -44,3 +44,8 @@ https://www.udemy.com/course/qt-core-advanced/
 * App Images
 * Compressing application binaries
 * Qt Installer Framework *
+
+### Commits by
+* George Calin 
+* george.calin [at] gmail.com
+* Connect me on LinkedIn: https://www.linkedin.com/in/cgeorge1978/
